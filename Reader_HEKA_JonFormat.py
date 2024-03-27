@@ -6,7 +6,7 @@
 #If 'data' is consistently stored in this format, the function used after this one will work properly no matter what is stored in it.
 
 #As for specifically whats going in for HEKA file reading, please refer to Danny!!!
-def HEKA_JonFormat_DBR(dir,fn):
+def Reader_HEKA_JonFormat(dir,fn):
     os.chdir(dir)
     st = time.time()
     #Separate the entire file into an array that has comma separated values.
